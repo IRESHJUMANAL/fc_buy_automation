@@ -16,16 +16,16 @@ public class Open_All_userspage {
 		String actual_title = driver.getTitle();
 		System.out.println(actual_title);
 		
-//		String expected_title = "FcBuy - Login";
-//		
-//		if(actual_title .equals(expected_title))
-//		{
-//			System.out.println("Test case passed");
-//		}
-//		else
-//		{
-//			System.out.println("Test case failed");
-//		}
+		String expected_title = "FcBuy - Login";
+		
+		if(actual_title .equals(expected_title))
+		{
+			System.out.println("Test case passed");
+		}
+		else
+		{
+			System.out.println("Test case failed");
+		}
 		
 		Thread.sleep(3000);
 		driver.quit();
